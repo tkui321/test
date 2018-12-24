@@ -1,0 +1,254 @@
+
+
+.square_btn39{
+    position: relative;
+    padding: 0.35em 0.7em 0.2em;
+    background: #668ad8;
+    color: #FFF;
+    text-decoration: none;
+}
+.square_btn39:before{
+    content: '';
+    position: absolute;
+    z-index: -2;
+    height: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    top: 100%;
+ 	top: calc(100% - 2px);
+    left: 0;
+    background: linear-gradient(-135deg, #668ad8 4px, transparent 0) 0 4px, linear-gradient(135deg, #668ad8 4px, #fff 0) 0 4px;
+    background-color: #668ad8;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;
+    transition: .2s;
+}
+.square_btn39:hover:before {
+    background-size: 13px 10px;
+}
+
+
+#somethingorother {
+  width: 800px ;
+}
+
+@media screen and (max-width: 320px) {
+ 
+  #somethingorother {
+    width: 120px ;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+ 
+  #somethingorother {
+    width: 320px ;
+  }
+}
+@media screen and (min-width: 481px) {
+  
+  #somethingorother {
+    width: 480px ;
+  }
+}
+
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+@keyframes mover{
+        0%{transform:translateY(0)
+        }
+        50%{
+        transform:translateY(-20px)
+        }
+        100%{transform:translateY(0)
+        }
+      }
+      .bot-logo {
+        animation:mover 1.5s infinite;
+      }
+.title{
+animation:rainbow-text 20s infinite;
+}
+#title{
+font-size: 200px;
+}
+.data{
+  vertical-align:middle;
+  color:lightgray;
+}
+.content table td,.content table th,.content table thead th{
+  border-color:dimgray;
+  border-top-width:.1em}
+  .content table tr:hover{background-color:rgba(255,255,255,0.05)}
+      body{
+      background-image:url("");
+        
+         height: 100%; 
+
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      }
+@keyframes rainbow-text {
+	0% {
+		color: #c87d7d;
+	}
+	2% {
+		color: #c88a7d;
+	}
+	4% {
+		color: #c8977d;
+	}
+	6% {
+		color: #c8a47d;
+	}
+	8% {
+			color: #c8a47d;
+  }
+	10% {
+		color: #e8bd7d;
+	}
+	12% {
+		color: #e8ca7d;
+	}
+	14% {
+		color: #e8d77d;
+	}
+	16% {
+		color: #e8e47d;
+	}
+	18% {
+		color: #dfe87d;
+	}
+	20% {
+		color: #d3e87d;
+	}
+	22% {
+		color: #c6e87d;
+	}
+	24% {
+		color: #b9e87d;
+	}
+	26% {
+		color: #ace87d;
+	}
+	28% {
+		color: #9fe87d;
+	}
+	30% {
+		color: #92e87d;
+	}
+	32% {
+		color: #86e87d;
+	}
+	34% {
+		color: #7de881;
+	}
+	36% {
+		color: #7de88e;
+	}
+	38% {
+		color: #7de89b;
+	}
+	40% {
+		color: #7de8a8;
+	}
+	42% {
+		color: #7de8b5;
+	}
+	44% {
+		color: #7de8c1;
+	}
+	46% {
+		color: #7de8ce;
+	}
+	48% {
+		color: #7de8db;
+	}
+	50% {
+		color: #7de8e8;
+	}
+	52% {
+		color: #7ddbe8;
+	}
+	54% {
+		color: #7dcee8;
+	}
+	56% {
+		color: #7dc1e8;
+	}
+	58% {
+		color: #7db5e8;
+	}
+	60% {
+		color: #7da8e8;
+	}
+	62% {
+		color: #7d9be8;
+	}
+	64% {
+		color: #7d8ee8;
+	}
+	66% {
+		color: #7d81e8;
+	}
+	68% {
+		color: #867de8;
+	}
+	70% {
+		color: #927de8;
+	}
+	72% {
+		color: #9f7de8;
+	}
+	74% {
+		color: #ac7de8;
+	}
+	76% {
+		color: #b97de8;
+	}
+	78% {
+		color: #c67de8;
+	}
+	80% {
+		color: #d37de8;
+	}
+	82% {
+		color: #df7de8;
+	}
+	84% {
+		color: #e87de4;
+	}
+	86% {
+		color: #e87dd7;
+	}
+	88% {
+		color: #e87dca;
+	}
+	90% {
+		color: #e87dbd;
+	}
+	92% {
+		color: #e87db0;
+	}
+	94% {
+		color: #e87da4;
+	}
+	96% {
+		color: #e87d97;
+	}
+	98% {
+		color: #e87d8a;
+	}
+	100% {
+		color: #e87d7d;
+  }
+}
